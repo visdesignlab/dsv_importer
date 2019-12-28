@@ -36,8 +36,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test:coverage:prod",
-      "pre-push": "npm test:coverage:prod"
+      "pre-commit": "npm run test:coverage:prod",
+      "pre-push": "npm run test:coverage:prod"
     }
   },
   "browserslist": {
