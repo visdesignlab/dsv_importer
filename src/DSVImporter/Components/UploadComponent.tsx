@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, {FC, useState, ChangeEvent} from 'react';
 import Input from '@material-ui/core/Input';
 import Grid from '@material-ui/core/Grid';

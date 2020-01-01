@@ -1,3 +1,4 @@
+// @ts-nocheck
 export type Separators = 'semicolon' | 'colon' | 'space' | 'tab' | 'comma';
 
 export const SeparatorMap: {[key in Separators]: string} = {

@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, {FC} from 'react';
 import {makeStyles, Theme, createStyles} from '@material-ui/core/styles';
 import Stepper from '@material-ui/core/Stepper';

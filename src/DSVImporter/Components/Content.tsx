@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 import React, {FC, useState, useContext} from 'react';
 import {makeStyles, Theme, createStyles} from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
