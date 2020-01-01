@@ -4,6 +4,16 @@
     "visdesignlab.upset2/dsv-importer@0.0.4": {
         "files": [
             {
+                "relativePath": "src/DSVImporter/Components/HeaderBar.tsx",
+                "test": false,
+                "name": "HeaderBar.tsx"
+            },
+            {
+                "relativePath": "src/DSVImporter/Components/Stepper.tsx",
+                "test": false,
+                "name": "Stepper.tsx"
+            },
+            {
                 "relativePath": "src/DSVImporter/DSVImporter.tsx",
                 "test": false,
                 "name": "DSVImporter.tsx"

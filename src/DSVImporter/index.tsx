@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import DSVImporter from './DSVImporter';
-import 'semantic-ui-css/semantic.min.css';
+import 'typeface-roboto';
 
 export default DSVImporter;
 
