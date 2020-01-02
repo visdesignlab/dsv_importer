@@ -1,5 +1,3 @@
-//@ts-nocheck
-
 import React, {FC, useState, useContext} from 'react';
 import {makeStyles, Theme, createStyles} from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
@@ -34,7 +32,7 @@ interface Props {
 }
 
 const Content: FC<Props> = ({step}: Props) => {
-  const classes = useStyles();
+  const classes = useStyles({});
   const [data, setData] = useState<Data>({
     rows: [],
     columns: [],
@@ -85,7 +83,7 @@ const Content: FC<Props> = ({step}: Props) => {
 
     axios
       .post(`${DATA_SERVER_STRING}upload`, formData)
-      .then(res => {
+      .then(() => {
         setUploadComplete(true);
         goToNextStep();
       })
@@ -131,7 +129,7 @@ const Content: FC<Props> = ({step}: Props) => {
 
 export default Content;
 
-const useStyles = makeStyles((theme: Theme) =>
+const useStyles = makeStyles((_: Theme) =>
   createStyles({
     root: {
       height: '100%',
