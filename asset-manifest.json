@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dsv_importer/static/css/main.19210e62.chunk.css",
+    "main.js": "/dsv_importer/static/js/main.1be29403.chunk.js",
+    "main.js.map": "/dsv_importer/static/js/main.1be29403.chunk.js.map",
+    "runtime-main.js": "/dsv_importer/static/js/runtime-main.fc33ff8c.js",
+    "runtime-main.js.map": "/dsv_importer/static/js/runtime-main.fc33ff8c.js.map",
+    "static/css/2.e02b8ea4.chunk.css": "/dsv_importer/static/css/2.e02b8ea4.chunk.css",
+    "static/js/2.3131dc01.chunk.js": "/dsv_importer/static/js/2.3131dc01.chunk.js",
+    "static/js/2.3131dc01.chunk.js.map": "/dsv_importer/static/js/2.3131dc01.chunk.js.map",
+    "index.html": "/dsv_importer/index.html",
+    "precache-manifest.a448490bab495d5cd8981b536240c9ac.js": "/dsv_importer/precache-manifest.a448490bab495d5cd8981b536240c9ac.js",
+    "service-worker.js": "/dsv_importer/service-worker.js",
+    "static/css/2.e02b8ea4.chunk.css.map": "/dsv_importer/static/css/2.e02b8ea4.chunk.css.map",
+    "static/css/main.19210e62.chunk.css.map": "/dsv_importer/static/css/main.19210e62.chunk.css.map",
+    "static/js/2.3131dc01.chunk.js.LICENSE": "/dsv_importer/static/js/2.3131dc01.chunk.js.LICENSE",
+    "static/media/index.css": "/dsv_importer/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc33ff8c.js",
+    "static/css/2.e02b8ea4.chunk.css",
+    "static/js/2.3131dc01.chunk.js",
+    "static/css/main.19210e62.chunk.css",
+    "static/js/main.1be29403.chunk.js"
+  ]
+}
