@@ -44,11 +44,7 @@
     }
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -62,7 +58,22 @@
   },
   "bit": {
     "env": {
-      "compiler": "bit.envs/compilers/react-typescript@3.1.27"
+      "compiler": {
+        "bit.envs/compilers/react-typescript@3.1.27": {
+          "rawConfig": {
+            "tsConfig": {
+              "strict": "false",
+              "lib": [
+                "dom",
+                "dom.iterable",
+                "esnext",
+                "es2020",
+                "ES2017.Object"
+              ]
+            }
+          }
+        }
+      }
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"

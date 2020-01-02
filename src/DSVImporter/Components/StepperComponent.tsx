@@ -1,4 +1,3 @@
-//@ts-nocheck
 import React, {FC} from 'react';
 import {makeStyles, Theme, createStyles} from '@material-ui/core/styles';
 import Stepper from '@material-ui/core/Stepper';
@@ -13,7 +12,7 @@ interface Props {
 }
 
 const StepperComponent: FC<Props> = ({activeStep, steps}: Props) => {
-  const classes = useStyles();
+  const classes = useStyles({});
 
   steps = steps.slice(0, 3);
 
@@ -34,7 +33,7 @@ const StepperComponent: FC<Props> = ({activeStep, steps}: Props) => {
 
 export default StepperComponent;
 
-const useStyles = makeStyles((theme: Theme) =>
+const useStyles = makeStyles((_: Theme) =>
   createStyles({
     root: {
       width: '100%',

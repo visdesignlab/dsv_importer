@@ -1,4 +1,3 @@
-//@ts-nocheck
 import React, {FC, useState, ChangeEvent} from 'react';
 import Input from '@material-ui/core/Input';
 import Grid from '@material-ui/core/Grid';
@@ -22,7 +21,7 @@ const UploadComponent: FC<Props> = ({
   selectedSeparator,
   handleFileUpload,
 }: Props) => {
-  const classes = useStyles();
+  const classes = useStyles({});
 
   const [file, setFile] = useState<File>(null as any);
 
@@ -80,7 +79,7 @@ const UploadComponent: FC<Props> = ({
 
 export default UploadComponent;
 
-const useStyles = makeStyles((theme: Theme) =>
+const useStyles = makeStyles((_: Theme) =>
   createStyles({
     root: {
       height: '100%',

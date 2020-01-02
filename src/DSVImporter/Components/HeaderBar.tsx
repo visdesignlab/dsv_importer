@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React, {FC} from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -27,7 +26,7 @@ interface OwnProps {}
 type Props = OwnProps;
 
 const HeaderBar: FC<Props> = () => {
-  const classes = useStyles();
+  const classes = useStyles({});
 
   return (
     <div className={classes.root}>
